@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+ul{
+  list-style: none;
+}
 
 .App-logo {
   height: 40vmin;
@@ -35,4 +38,31 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/* Blog */
+.blog-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.blog-item {
+  width: 200px;
+  cursor: pointer;
+}
+
+.blog-item img {
+  width: 100%;
+  height: auto;
+}
+
+.blog-detail {
+  text-align: center;
+}
+
+.blog-detail img {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
 }
