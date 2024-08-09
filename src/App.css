@@ -4,7 +4,11 @@
 ul{
   list-style: none;
 }
-
+.box{
+  border: 2px solid grey;
+  margin: 10px auto;
+  width: 90%;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
