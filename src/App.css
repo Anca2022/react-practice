@@ -14,6 +14,22 @@ ul{
   height: 40vmin;
   pointer-events: none;
 }
+.use-reducer-form input{
+  display:block;
+  width: 150px;
+  margin: 0 auto 10px auto;
+}
+.use-reducer-form p {
+  font-size: 1.3rem;
+  margin: 0;
+}
+.use-reducer-form .form-quantity button{
+  cursor: pointer;
+}
+.use-reducer-form .form-quantity span{
+  display: inline-block; 
+  margin: 10px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
