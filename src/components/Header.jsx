@@ -6,7 +6,8 @@ export default function Header () {
             <nav style={{margin:'2rem 1rem'}}>
                 <Link to='/animated' style={{marginRight:'2rem'}}>Animated</Link>
                 <Link to='/blog' style={{marginRight:'2rem'}}>Blog</Link>
-                <Link to='/hooks'>React Hooks</Link>
+                <Link to='/hooks'style={{marginRight:'2rem'}}>React Hooks</Link>
+                <Link to='/forms'>React Forms</Link>
             </nav>
         </header>
     );
