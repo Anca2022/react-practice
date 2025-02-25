@@ -7,6 +7,7 @@ import BlogList from './components/BlogList';
 import Animated from './components/Animated';
 import Header from './components/Header';
 import Hooks from './components/Hooks';
+import ReactForms from './components/ReactForms';
 import UseEffectComp from './components/HookComponents/UseEffectComp';
 import UseStateComp from './components/HookComponents/UseStateComp';
 import UseReducerComp from './components/HookComponents/UseReducerComp';
@@ -42,6 +43,7 @@ function App() {
         <Route path='/hooks/usememo' element={<UseMemoComp/>}/>
         <Route path='/hooks/usecallback' element={<UseCallbackComp/>}/>
         <Route path='/hooks/usecontext' element={<UseContextComp/>}/>
+        <Route path='/forms' element={<ReactForms/>}/>
       </Routes>
     </AnimatePresence>
   </div>

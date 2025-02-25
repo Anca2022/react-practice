@@ -26,7 +26,6 @@ function formReducer(state, action) {
 
 export default function UseReducerComp() {
     const [state, dispatch] = useReducer(formReducer, initialState)
-    console.log(state);
     return(
         <div>
             <h2>useReducer Hook</h2>
